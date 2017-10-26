@@ -205,7 +205,7 @@
 		window.addEventListener('scroll', scrollfn);
 
 		// todo: show/load more grid items
-		loadMoreCtrl.addEventListener('click', loadNextItems);
+		//loadMoreCtrl.addEventListener('click', loadNextItems);
 
 		// window resize: recalculate window sizes and reposition the 6 grid items behind the phone (if the grid view is not yet shown)
 		window.addEventListener('resize', debounce(function(ev) {
